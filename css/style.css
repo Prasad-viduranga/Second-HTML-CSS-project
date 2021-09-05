@@ -1,0 +1,322 @@
+
+div *{
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+text-decoration-color: black;
+text-decoration: black;
+color: black;
+}
+
+h1{
+    padding: 10px;
+}
+
+.first-col{
+    position: absolute;
+    right:  2px;
+    width: 100%;
+    height: 48px;
+    /* background-color: aqua; */
+}
+
+.icon-area{
+    position: absolute;
+    right:  0px;
+    /* width: 285.6px; */
+    height: 48px;
+    /* background-color: red; */
+}
+
+.word-col{
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+    right:  150px;
+    width: 121.6px;
+    height: 24px;
+    /* background-color: yellow; */
+}
+.icon-image{
+    position: relative;
+    left: 10px;
+}
+.app-icon{
+    color: #5f6368;
+    position: relative;
+    left: 25px;
+    top: 8px;
+}
+
+.material-icons{
+    color: #5f6368;
+}
+.sign-in{
+    font-size: 15px;
+    position: absolute;
+    width: 96px;
+    height: 36px;
+    top: 2px;
+    left: 150px;
+    margin-left: 8px;
+    background-color: #1b76ed;
+    color: white;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+#icon{
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.icon-gmail:hover{
+    text-decoration-line:underline ;
+}
+.icon-image:hover{
+    text-decoration-line:underline ;
+}
+.app-icon:focus-visible{
+    opacity: 1;
+}
+.sign-btn:hover{
+    box-shadow:60px -16px cornflowerblue;
+}
+
+#logo-google{
+    position: absolute;
+    top: 145px;
+    
+    width: 272px;
+    height: 92px;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+.logo-google{
+    width: 272px;
+    height: 92px;
+}
+
+.search-block{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 250px;
+    /* width: auto; */
+    max-width: 584px;
+    height: 160px;
+    /* background-color: yellow; */
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+.search-area{
+    padding: 5px 8px 0 16px;
+    left: 0%;
+    right: 0%;
+    top: 250px;
+    max-width: 584px;
+    width: 100%;
+    height: 45.6px;
+    border:1px solid #dfe1e5;
+    border-radius: 24px;
+    /* background-color: red; */
+    /* margin: auto; */
+}
+.search{
+    max-width: 582.4px;
+    height: 40px;
+    /* background-color: blue; */
+}
+.icon-box{
+    background-color: white;
+    width: 33px;
+    height: 35px;
+}
+.search-icon{
+    
+    position: relative;
+    /* left: 5px; */
+    top: 8px;
+}
+.text-area{
+    position:absolute;
+    padding: 0%;
+    top: 5px;
+    left: 50px;
+    height: 38px;
+    /* width: 520px; */
+}
+.material-icons{
+    color: #9aa0a6;
+}
+.material-icons{
+    cursor: context-menu;
+}
+.search-area:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.search-text{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    /* width: 520px; */
+    height: 38px;
+}
+
+.button-area{
+    background-color: transparent;
+    height: 88px;
+    /* width: 584px; */
+}
+.button-search{
+    position: relative;
+    top: 10px;
+    left: 150px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    /* width: 250px; */
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    /* position: relative;
+    left: 100px;
+    top: 25px; */
+}
+.button-search:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.google-tag{
+    position: relative;
+    left: 200px;
+}
+
+.sinhala-tag{
+    color: blue;
+}
+.sinhala-tag:hover{
+    text-decoration-line:underline ;
+}
+.tamil-tag:hover{
+    text-decoration-line:underline ;
+}
+.google-tag{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+.bottom-area{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #222;
+    width: 100%;
+    height: 95.4px;
+}
+.separator{
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.1);
+}
+.contry{
+    position: fixed;
+    bottom: 65px;
+    left: 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.40);
+
+}
+.about-col{
+    position: fixed;
+    bottom: 16px;
+    left: 148px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.about-col:hover{
+    text-decoration-line:underline ;
+}
+.advertisting-col{
+    position: fixed;
+    bottom: 16px;
+    left: 212px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.advertisting-col:hover{
+    text-decoration-line:underline ;
+}
+.business-col{
+    position: fixed;
+    bottom: 16px;
+    left: 310px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.business-col:hover{
+    text-decoration-line:underline ;
+}
+.howsearchwork-col{
+    position: fixed;
+    bottom: 16px;
+    left: 400px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.howsearchwork-col:hover{
+    text-decoration-line:underline ;
+}
+.privacy-col{
+    position: fixed;
+    bottom: 16px;
+    right: 300px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.privacy-col:hover{
+    text-decoration-line:underline ;
+}
+.terms-col{
+    position: fixed;
+    bottom: 16px;
+    right: 225px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.terms-col:hover{
+    text-decoration-line:underline ;
+}
+.setting-col{
+    position: fixed;
+    bottom: 16px;
+    right: 150px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.40);
+}
+.setting-col:hover{
+    text-decoration-line:underline ;
+}
